@@ -1,13 +1,3 @@
----
-title: Generic RAG Chatbot
-emoji: R
-colorFrom: blue
-colorTo: purple
-sdk: docker
-app_port: 7860
-python_version: 3.11
----
-
 # Generic RAG Chatbot
 
 A generic Retrieval-Augmented Generation chatbot that allows users to upload PDF, DOCX, and TXT documents and ask questions based only on the uploaded content.
