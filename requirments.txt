@@ -11,4 +11,3 @@ faiss-cpu
 rank-bm25
 pymupdf
 docx2txt
-python-docx
