@@ -1,8 +1,16 @@
+import sys
+from pathlib import Path
+
 import streamlit as st
+
+# Add project root to Python path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.file_manager import add_files, list_files
 from app.rag import ask_rag
-
 
 st.set_page_config(
     page_title="Generic RAG Chatbot",
